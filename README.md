@@ -117,20 +117,6 @@ soluciones detalladas a los ejercicios de cada principio
 SOLID. Esta sección te ayudará a entender cómo aplicar
 correctamente los principios en el código.
 
-Puedes revisar los ejercicios resueltos en la carpeta
-correspondiente a cada principio, por ejemplo:
-
-- **SRP**: [ejercicio-resuelto.js](./ejercicios-resueltos/
-  1.SRP/ejercicio-resuelto.js)
-- **OCP**: [ejercicio-resuelto.js](./ejercicios-resueltos/
-  2.OCP/ejercicio-resuelto.js)
-- **LSP**: [ejercicio-resuelto.js](./ejercicios-resueltos/
-  3.LSP/ejercicio-resuelto.js)
-- **ISP**: [ejercicio-resuelto.js](./ejercicios-resueltos/
-  4.ISP/ejercicio-resuelto.js)
-- **DIP**: [ejercicio-resuelto.js](./ejercicios-resueltos/
-  5.DIP/ejercicio-resuelto.js)
-
 ## Licencia
 
 Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.

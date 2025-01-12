@@ -1,29 +1,24 @@
-# Práctica del Principio de Abierto/Cerrado (OCP)
+# Práctica de Diseño de Software: Sistema de Envíos
 
 ## Descripción del ejercicio
 
-En este ejercicio, vamos a refactorizar un sistema que no cumple con el Principio de Abierto/Cerrado (OCP). El objetivo es reestructurar el código para que sea extensible sin necesidad de modificar las clases existentes.
-
 ### Escenario
 
-Tenemos un sistema que calcula el área de diferentes figuras geométricas (círculos y rectángulos) utilizando una estructura condicional en una clase única.
+Estás trabajando en un sistema de gestión de envíos para una tienda en línea. El sistema actual permite calcular los costos de envío para diferentes tipos de envíos: estándar, urgente y express. Sin embargo, el sistema está diseñado de manera que para agregar un nuevo tipo de envío, se deben modificar varias partes del código existente.
+
+Tu tarea es refactorizar el código para que el sistema sea **abierto para extensión, pero cerrado para modificación**. Esto significa que debes poder agregar nuevos tipos de envíos sin modificar el código ya existente.
+
+---
 
 ## Instrucciones
 
-1. Observa el código en el archivo [`ejercicio.js`](ejercicio.js).
-2. Identifica las áreas donde el principio OCP no se está aplicando.
-3. Refactoriza el código para que nuevas figuras geométricas puedan añadirse sin modificar las clases existentes.
-4. (Opcional) Añade comentarios explicativos en tu solución.
+1. Revisa el archivo `ejercicio.js` para identificar el código que debe ser refactorizado.
+2. Refactoriza el código para implementar el **Principio Abierto/Cerrado**. Crea una estructura que permita agregar nuevos tipos de envío sin cambiar el código existente.
+3. Agrega al menos un nuevo tipo de envío al sistema y demuestra cómo funciona.
+
+---
 
 ## Resultado esperado
 
-Al finalizar, deberías tener:
-
-- Una clase independiente para cada figura geométrica.
-- Un método `getArea()` en cada clase que calcule el área de forma individual.
-- La eliminación de estructuras condicionales en el cálculo del área.
-
-## Recursos recomendados
-
-- [Patrones de diseño y OCP](https://refactoring.guru/design-patterns)
-- [Principio de Abierto/Cerrado en Clean Code](<https://es.wikipedia.org/wiki/SOLID_(principios)>)
+- El sistema debe ser capaz de manejar diferentes tipos de envío sin modificar las clases existentes.
+- Debes utilizar **polimorfismo** para manejar el cálculo de los costos de envío, haciendo que el sistema sea fácilmente extensible para futuros tipos de envío.

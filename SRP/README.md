@@ -79,8 +79,3 @@ printer.printReport(report);
 1. Separa responsabilidades: Cada clase tiene una única razón para cambiar.
 2. Reutilización: Podemos usar ReportPrinter para imprimir otros tipos de reportes sin cambiar su lógica.
 3. Mantenibilidad: Los cambios en una clase no afectan a la otra.
-
-## Ejercicio
-
-1. Modifica el código de la carpeta before/ para separar responsabilidades siguiendo el principio SRP.
-2. Amplía el ejemplo añadiendo una nueva clase para guardar los reportes en un archivo, asegurándote de mantener las responsabilidades separadas.

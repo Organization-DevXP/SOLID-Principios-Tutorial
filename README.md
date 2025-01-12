@@ -101,3 +101,8 @@ SOLID-Principios-Tutorial
 ## Licencia
 
 Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+## Recuroso Adicionales 
+
+* Youtube - [Curso de PRINCIPIOS SOLID Desde Cero](https://www.youtube.com/watch?v=ASBC5drF-QU&ab_channel=MoureDevbyBraisMoure) - 2hs
+* Youtube - [5 Maneras de simplificar tu código JavaScript con SOLID](https://www.youtube.com/watch?v=6PdAOfsPh48&ab_channel=CarlosAzaustre-AprendeJavaScript) - 22min

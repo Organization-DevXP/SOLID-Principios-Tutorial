@@ -19,34 +19,49 @@ Cada principio tiene su propia carpeta con ejemplos prácticos y documentación:
 ```
 SOLID-Principios-Tutorial
 ├── SRP
-│   ├── before
-│   │   └── example.js
-│   ├── after
-│   │   └── example.js
+│   ├── Antes
+│   │   └── ejemplo.js
+│   ├── Despues
+│   │   └── ejemplo.js
+│   ├── PRACTICA
+│   │   ├── README.md
+│   │   └── ejercicio.js
 │   └── README.md
 ├── OCP
-│   ├── before
-│   │   └── example.js
-│   ├── after
-│   │   └── example.js
+│   ├── Antes
+│   │   └── ejemplo.js
+│   ├── Despues
+│   │   └── ejemplo.js
+│   ├── PRACTICA
+│   │   ├── README.md
+│   │   └── ejercicio.js
 │   └── README.md
 ├── LSP
-│   ├── before
-│   │   └── example.js
-│   ├── after
-│   │   └── example.js
+│   ├── Antes
+│   │   └── ejemplo.js
+│   ├── Despues
+│   │   └── ejemplo.js
+│   ├── PRACTICA
+│   │   ├── README.md
+│   │   └── ejercicio.js
 │   └── README.md
 ├── ISP
-│   ├── before
-│   │   └── example.js
-│   ├── after
-│   │   └── example.js
+│   ├── Antes
+│   │   └── ejemplo.js
+│   ├── Despues
+│   │   └── ejemplo.js
+│   ├── PRACTICA
+│   │   ├── README.md
+│   │   └── ejercicio.js
 │   └── README.md
 ├── DIP
-│   ├── before
-│   │   └── example.js
-│   ├── after
-│   │   └── example.js
+│   ├── Antes
+│   │   └── ejemplo.js
+│   ├── Despues
+│   │   └── ejemplo.js
+│   ├── PRACTICA
+│   │   ├── README.md
+│   │   └── ejercicio.js
 │   └── README.md
 └── LICENSE
 ```
@@ -66,7 +81,7 @@ SOLID-Principios-Tutorial
    ```
    ```bash
     cd SOLID-Principios-Tutorial
-    ```
+   ```
 2. **Explora los ejemplos:**
    Navega por las carpetas para ver ejemplos de cada principio.
 3. **Prueba el código:**
@@ -79,6 +94,7 @@ SOLID-Principios-Tutorial
 ¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar este repositorio, ya sea con ejemplos en otros lenguajes de programación, ejercicios adicionales o correcciones, siéntete libre de enviar un pull request.
 
 ### Cómo contribuir:
+
 1. Haz un fork del repositorio.
 2. Crea una rama para tus cambios:
    ```bash
@@ -98,10 +114,10 @@ SOLID-Principios-Tutorial
 
 Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
-## Recursos Adicionales 
+## Recursos Adicionales
 
-* Video - Youtube - [Curso de PRINCIPIOS SOLID Desde Cero](https://www.youtube.com/watch?v=ASBC5drF-QU&ab_channel=MoureDevbyBraisMoure) - 2hs
-* Video - Youtube - [5 Maneras de simplificar tu código JavaScript con SOLID](https://www.youtube.com/watch?v=6PdAOfsPh48&ab_channel=CarlosAzaustre-AprendeJavaScript) - 22min
-* Libro -["Clean Code" por Robert C. Martin](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-* [Patrones de diseño de software](https://refactoring.guru/design-patterns)
-* [Documentación de SOLID](https://en.wikipedia.org/wiki/SOLID)
+- Video - Youtube - [Curso de PRINCIPIOS SOLID Desde Cero](https://www.youtube.com/watch?v=ASBC5drF-QU&ab_channel=MoureDevbyBraisMoure) - 2hs
+- Video - Youtube - [5 Maneras de simplificar tu código JavaScript con SOLID](https://www.youtube.com/watch?v=6PdAOfsPh48&ab_channel=CarlosAzaustre-AprendeJavaScript) - 22min
+- Libro -["Clean Code" por Robert C. Martin](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+- [Patrones de diseño de software](https://refactoring.guru/design-patterns)
+- [Documentación de SOLID](https://en.wikipedia.org/wiki/SOLID)

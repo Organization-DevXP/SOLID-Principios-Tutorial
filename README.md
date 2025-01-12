@@ -74,8 +74,6 @@ SOLID-Principios-Tutorial
 4. **Resuelve los ejercicios:**
    Practica lo aprendido resolviendo los desafíos incluidos.
 
----
-
 ## Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar este repositorio, ya sea con ejemplos en otros lenguajes de programación, ejercicios adicionales o correcciones, siéntete libre de enviar un pull request.
@@ -96,13 +94,14 @@ SOLID-Principios-Tutorial
    ```
 5. Abre un pull request en GitHub.
 
----
-
 ## Licencia
 
 Este proyecto está licenciado bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
-## Recuroso Adicionales 
+## Recursos Adicionales 
 
-* Youtube - [Curso de PRINCIPIOS SOLID Desde Cero](https://www.youtube.com/watch?v=ASBC5drF-QU&ab_channel=MoureDevbyBraisMoure) - 2hs
-* Youtube - [5 Maneras de simplificar tu código JavaScript con SOLID](https://www.youtube.com/watch?v=6PdAOfsPh48&ab_channel=CarlosAzaustre-AprendeJavaScript) - 22min
+* Video - Youtube - [Curso de PRINCIPIOS SOLID Desde Cero](https://www.youtube.com/watch?v=ASBC5drF-QU&ab_channel=MoureDevbyBraisMoure) - 2hs
+* Video - Youtube - [5 Maneras de simplificar tu código JavaScript con SOLID](https://www.youtube.com/watch?v=6PdAOfsPh48&ab_channel=CarlosAzaustre-AprendeJavaScript) - 22min
+* Libro -["Clean Code" por Robert C. Martin](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+* [Patrones de diseño de software](https://refactoring.guru/design-patterns)
+* [Documentación de SOLID](https://en.wikipedia.org/wiki/SOLID)

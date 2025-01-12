@@ -17,7 +17,7 @@ Los principios SOLID son un conjunto de cinco principios diseñados para mejorar
 Cada principio tiene su propia carpeta con ejemplos prácticos y documentación:
 
 ```
-solid-principles-tutorial
+SOLID-Principios-Tutorial
 ├── SRP
 │   ├── before
 │   │   └── example.js

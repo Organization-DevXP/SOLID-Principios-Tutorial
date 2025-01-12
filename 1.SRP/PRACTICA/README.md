@@ -14,16 +14,12 @@ Tenemos un sistema que gestiona la información de los estudiantes. Actualmente,
 
 Tu tarea será separar estas responsabilidades en clases distintas.
 
----
-
 ## Instrucciones
 
 1. Observa el código en el archivo [`example.js`](./example.js).
 2. Identifica las responsabilidades múltiples en la clase proporcionada.
 3. Refactoriza el código creando nuevas clases que cumplan con el SRP.
 4. (Opcional) Añade comentarios al código refactorizado explicando tus decisiones.
-
----
 
 ## Resultado esperado
 
@@ -32,8 +28,6 @@ Al finalizar, deberías tener:
 - Una clase encargada de la validación.
 - Una clase encargada de guardar los datos.
 - Una clase encargada de generar el reporte.
-
----
 
 ## Recursos recomendados
 

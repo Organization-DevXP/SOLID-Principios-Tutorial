@@ -112,7 +112,7 @@ SOLID-Principios-Tutorial
 
 ## Ejercicios Resueltos
 
-En la rama **ejercicios-resueltos**, puedes encontrar
+En la rama **[ejercicios-resueltos](https://github.com/Organization-DevXP/SOLID-Principios-Tutorial/tree/ejercicios-resueltos)**, puedes encontrar
 soluciones detalladas a los ejercicios de cada principio
 SOLID. Esta sección te ayudará a entender cómo aplicar
 correctamente los principios en el código.

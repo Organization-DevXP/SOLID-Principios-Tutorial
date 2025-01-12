@@ -9,14 +9,8 @@ class ShapeCalculator {
     }
 }
 
+// Uso
 const calculator = new ShapeCalculator();
-console.log(calculator.calculateArea({
-    type: "circle",
-    radius: 5
-}));
-console.log(
-    calculator.calculateArea({
-        type: "rectangle", width: 4,
-        height: 6
-    })
-);
+
+console.log(calculator.calculateArea({ type: "circle", radius: 5 }));
+console.log(calculator.calculateArea({ type: "rectangle", width: 4, height: 6 }));

@@ -17,5 +17,6 @@ class SavingsAccount extends BankAccount {
     }
 }
 
+// Uso
 const account = new SavingsAccount(100);
 account.withdraw(50); // Error inesperado: No se permite retirar dinero.

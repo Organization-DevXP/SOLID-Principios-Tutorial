@@ -2,26 +2,26 @@
 
 ## Descripción del ejercicio
 
-En este ejercicio, trabajaremos con un sistema de dispositivos de impresión y escaneo. El objetivo es refactorizar el diseño para dividir responsabilidades en interfaces más específicas, cumpliendo con el principio ISP.
+En este ejercicio, trabajaremos con un sistema de notificaciones para usuarios que incluye múltiples canales, como email, SMS y notificaciones push. El objetivo es refactorizar el diseño para que cada clase implemente únicamente las interfaces que necesita, cumpliendo con el principio ISP.
 
 ### Escenario
 
-Actualmente, un dispositivo básico como una impresora debe implementar métodos relacionados con funciones que no soporta, como escaneo o envío de fax. Esto rompe el principio ISP y añade complejidad innecesaria.
+Actualmente, una clase que solo envía notificaciones por SMS está obligada a implementar métodos relacionados con otros canales, como email o notificaciones push, aunque no los soporte. Esto genera un diseño rígido y difícil de mantener.
 
 ## Instrucciones
 
-1. Revisa el archivo [`ejercicio.js`](ejercicio.js) para identificar el problema actual.
-2. Divide las responsabilidades en interfaces más pequeñas y específicas.
-3. Refactoriza las clases para que implementen únicamente las interfaces necesarias.
-4. (Opcional) Documenta el diseño refactorizado.
+1. Revisa el archivo [`ejercicio.js`](ejercicio.js) para identificar las clases que violan el principio ISP.
+2. Divide las responsabilidades en interfaces más específicas.
+3. Refactoriza las clases para que implementen únicamente las interfaces que necesitan.
+4. (Opcional) Añade un ejemplo práctico que demuestre el nuevo diseño funcionando correctamente.
 
 ## Resultado esperado
 
 Al finalizar, deberías tener:
 
-- Clases que implementen interfaces relevantes y específicas.
-- Un diseño modular que facilite la extensión y el mantenimiento.
-- Eliminación de dependencias innecesarias en las clases.
+- Interfaces separadas para cada canal de notificación.
+- Clases que implementen únicamente las interfaces necesarias.
+- Código más modular y extensible, preparado para soportar nuevos canales de notificación.
 
 ## Recursos recomendados
 

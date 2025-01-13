@@ -1,28 +1,36 @@
-class MultifunctionPrinter {
-    print() {
-        console.log("Imprimiendo documento...");
+// Código inicial (antes de aplicar ISP)
+
+// Interfaz general que incluye todos los métodos de notificación
+class Notificador {
+    enviarEmail(mensaje) {
+        throw new Error("Método no implementado");
     }
 
-    scan() {
-        console.log("Escaneando documento...");
+    enviarSMS(mensaje) {
+        throw new Error("Método no implementado");
     }
 
-    fax() {
-        console.log("Enviando fax...");
+    enviarPush(mensaje) {
+        throw new Error("Método no implementado");
     }
 }
 
-class BasicPrinter extends MultifunctionPrinter {
-    fax() {
-        throw new Error("Esta impresora no soporta fax.");
+// Clase que solo soporta SMS, pero está obligada a implementar todo
+class NotificadorSMS extends Notificador {
+    enviarEmail(mensaje) {
+        throw new Error("Este notificador no soporta email.");
     }
 
-    scan() {
-        throw new Error("Esta impresora no soporta escaneo.");
+    enviarPush(mensaje) {
+        throw new Error("Este notificador no soporta notificaciones push.");
+    }
+
+    enviarSMS(mensaje) {
+        console.log(`Enviando SMS: ${mensaje}`);
     }
 }
 
 // Uso
-const printer = new BasicPrinter();
-printer.print(); // Funciona.
-printer.scan();  // Error: Esta impresora no soporta escaneo.
+const smsNotifier = new NotificadorSMS();
+smsNotifier.enviarSMS("Hola, usuario!"); // Funciona
+smsNotifier.enviarEmail("Hola, usuario!"); // Error: Este notificador no soporta email.

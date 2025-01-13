@@ -1,19 +1,22 @@
-class EmailService {
-    sendEmail(message) {
-        console.log(`Enviando email: ${message}`);
+// Código inicial (antes de aplicar DIP)
+
+class CreditCardService {
+    procesarPago(cantidad) {
+        console.log(`Procesando pago con tarjeta de crédito por $${cantidad}`);
     }
 }
 
-class Notification {
+class PaymentProcessor {
     constructor() {
-        this.emailService = new EmailService();
+        this.paymentService = new CreditCardService();
     }
 
-    sendNotification(message) {
-        this.emailService.sendEmail(message);
+    procesar(cantidad) {
+        console.log("Iniciando procesamiento de pago...");
+        this.paymentService.procesarPago(cantidad);
     }
 }
 
 // Uso
-const notification = new Notification();
-notification.sendNotification("Hola, mundo!");
+const procesador = new PaymentProcessor();
+procesador.procesar(100);
